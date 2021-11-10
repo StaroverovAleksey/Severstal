@@ -1,0 +1,56 @@
+@import "~normalize.css";
+
+table {
+    width: 100%;
+
+}
+
+thead {
+    background-color: #f6d5a6;
+}
+
+tr {
+    cursor: pointer;
+}
+
+th {
+    position: relative;
+}
+
+tr:nth-child(2n) {
+    background-color: #faebd7;
+}
+
+caption, thead {
+    font-size: 24px;
+}
+
+.children-show {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.children-hide {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+input {
+    margin-left: 10px;
+}
